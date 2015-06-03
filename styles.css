@@ -25,6 +25,7 @@ nav a {
 nav li {
   display: inline;
   list-style-type: none;
+  font-family: 'Courier New';
 }
 footer a {
   display: inline;
