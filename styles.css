@@ -70,8 +70,8 @@ header {
   overflow: hidden;
 }
 header nav {
-  float: right;
+  float: left;
 }
 .logo {
-  float: left;
+  float: right;
 }
