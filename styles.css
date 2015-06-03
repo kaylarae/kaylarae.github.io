@@ -20,7 +20,7 @@ nav a {
   text-shadow: 1px 1px white;
   text-decoration: none;
   border-radius: 4px;
-  color: teal;
+  color: lightGray;
 }
 nav li {
   display: inline;
