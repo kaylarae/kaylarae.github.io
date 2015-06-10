@@ -34,6 +34,7 @@ nav a {
 }
 
 nav li {
+  padding-top: 50px;
   display: inline;
   float: left;
   list-style-type: none;
