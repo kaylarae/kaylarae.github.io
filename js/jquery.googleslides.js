@@ -4,8 +4,8 @@
 
 (function( $ ){
 	var defaults = {
-			  'userid'			 : '115528839112598673902',
-			  'albumid'			 : '5710317752556741025',
+			  'userid'			 : '110799556283459821061',
+			  'albumid'			 : '6158581310021821137',
 			  'authkey' 		 : '',
 			  'imgmax'           : 460,
 			  'maxresults'		 : 100,
@@ -34,13 +34,13 @@
                   authKeyStr = '&authkey=' + settings.authkey;
                 }
 
-				var albumJsonUrl = '<script src="https://picasaweb.google.com/data/feed/base/user/' + settings.userid + '/albumid/' + settings.albumid 
-					+ '?alt=json&kind=photo&max-results=' + settings.maxresults + '&hl=en_US&imgmax=' + settings.imgmax  
+				var albumJsonUrl = '<script src="https://picasaweb.google.com/data/feed/base/user/' + settings.userid + '/albumid/' + settings.albumid
+					+ '?alt=json&kind=photo&max-results=' + settings.maxresults + '&hl=en_US&imgmax=' + settings.imgmax
 					+ authKeyStr
-					+ '&callback=jQuery.fn.googleslides.prepare_' + settings.albumid + '&fields=link,entry(link,media:group(media:content,media:description))">' 
+					+ '&callback=jQuery.fn.googleslides.prepare_' + settings.albumid + '&fields=link,entry(link,media:group(media:content,media:description))">'
 					+ '</sc' + 'ript>';
 				
-				var prepareFunCallback = 'jQuery.fn.googleslides.prepare_' + settings.albumid 
+				var prepareFunCallback = 'jQuery.fn.googleslides.prepare_' + settings.albumid
 					+ ' = function(data) { $(".googleslides[albumid=' + settings.albumid + ']").googleslides("prepare", data); };';
 				eval(prepareFunCallback);
 				
@@ -101,7 +101,7 @@
 		start: function () {
 			var settings = this.data('googleslidesOptions');
 			
-			this.find('.googleslide').first().fadeIn(settings.fadespeed);	
+			this.find('.googleslide').first().fadeIn(settings.fadespeed);
 			
 			var target = this;
 			setInterval(function() {
@@ -118,7 +118,7 @@
 		}
 	}
 
-  $.fn.googleslides = function(method) {  
+  $.fn.googleslides = function(method) {
 		 // Method calling logic
 		if ( methods[method] ) {
 		  return methods[ method ].apply( this, Array.prototype.slice.call( arguments, 1 ));
@@ -126,6 +126,6 @@
 		  return methods.init.apply( this, arguments );
 		} else {
 		  $.error( 'Method ' +  method + ' does not exist on jQuery.tooltip' );
-		}    		
+		}
   };
 })( jQuery );
