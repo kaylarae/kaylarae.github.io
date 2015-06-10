@@ -8,6 +8,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
  }
+ 
+header {
+  width: 100%;
+  background-color: #fff;
+}
 h1 {
   font-size: 32px;
   text-shadow: 2px 1px gray;
@@ -24,6 +29,7 @@ nav a {
 }
 nav li {
   display: inline;
+  float: left;
   list-style-type: none;
   font-family: 'Courier New';
 }
