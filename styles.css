@@ -1,6 +1,8 @@
 /* CSS Document */
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
   background-image: url('https://drive.google.com/uc?export=download&id=0B_xGwz-6mChNYXdPbmtENkxIaTQ');
   background-position: center;
@@ -25,13 +27,14 @@ h3 {
   color: #000000;
 }
 nav a {
-  padding-top 35px;
   text-decoration: none;
   border-radius: 4px;
   color: darkGray;
 }
+
 nav li {
   display: inline;
+  padding-top 35px;
   float: left;
   list-style-type: none;
   font-family: 'Courier New';
@@ -39,7 +42,8 @@ nav li {
 footer a {
   display: inline;
 }
-  #projects img {
+
+#projects img {
   height: 350px;
   margin: 0 auto;
   position: center;
