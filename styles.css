@@ -91,3 +91,8 @@ header nav {
   float: right;
   height: 100px;
 }
+.headline {
+  font-family: 'Courier New';
+  font-size: 35px;
+  color: white;
+}
