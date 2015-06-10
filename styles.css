@@ -25,6 +25,7 @@ h3 {
   color: #000000;
 }
 nav a {
+  padding-top 35px;
   text-decoration: none;
   border-radius: 4px;
   color: darkGray;
@@ -83,5 +84,5 @@ header nav {
 }
 .logo {
   float: right;
-  height: 50px;
+  height: 100px;
 }
