@@ -76,8 +76,13 @@ footer a {
   display: block;
 }
 
+.about {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .about-copy {
-  font: 12px arial;
+  font: 14px arial;
   color: white;
   width: 500px;
   float: left;
