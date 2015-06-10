@@ -101,3 +101,9 @@ header nav {
   font-size: 30px;
   color: white;
 }
+
+.content {
+  background-color: none;
+  width: 900px;
+  margin: 0 auto;
+}
